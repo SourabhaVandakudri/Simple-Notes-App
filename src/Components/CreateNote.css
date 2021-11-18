@@ -1,0 +1,41 @@
+.create-note{
+    margin:10px;
+    width: 60%;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 6px;
+    display: inline-block;
+    background-color: floralwhite;
+}
+.create-note >form >div{
+    margin: 8px;
+}
+  .notes-container{
+    display: flex;
+  }
+  .notes-container > div {
+    flex: 1; /*grow*/
+    border-style:solid;
+    border-width: thin;
+    margin:10px;
+    height: 200px;
+    overflow: scroll;
+    border-radius: 6px;
+    background-color: lightgray;
+  }
+  .category{
+    display: inline-block;
+  }
+
+  .note{
+    border-style:solid;
+    border-width: thin;
+    margin: 0 10px 10px 10px;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: white;
+  }
+
+  .note .edit , .note.delete{
+        margin: 3px;
+}
